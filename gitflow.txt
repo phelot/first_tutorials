@@ -7,10 +7,36 @@ push
 
 "Do your commits and pushes often"
 
-Pulls
+=Branches
+
+=Forks
+So what happens with OpenSource Projects?
+We create a personal copy of the project and then we can offer those changes back later
+It's a full fledged repository of the master and it's many branches
+We can create a new branch
+
+$git branch <feature-branch>
+$git checkout <feature-branch>
+Switched to branch '<feature-branch>'
+
+then we do our git add, git commit -m
+then we do an opt in
+git push -u origin <feature-branch> 
+
+=Pull Requests
 If we're working with changes, we can work inside of a branch.
 This way we don't trounce upon our stable master.
 When we finish up with a branch and want to push it back to the master we Pull.
 A Pull is a request to merge the branch with the master.
-At a later point, an administrator will approve the merge.
+At a later point, an administrator will review to approve or reject the merge.
 Once merged a branch can be deleted. 
+
+
+
+
+References
+Pro Git Book
+http://git-scm.com/book
+
+GitHub Official Material
+http://teach.github.com
