@@ -1,0 +1,12 @@
+git clone <url>
+
+git add
+
+commit
+
+push
+
+Do your commits and pushes often
+
+If we're working with changes, we can work inside of a branch.
+When we finish up a branch and want to push it back to the
